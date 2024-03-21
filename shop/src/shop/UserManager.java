@@ -22,10 +22,8 @@ public class UserManager {
 	// 기능 CRUD
 	
 	// C
-	public void createUser(String name,String id,String password) {
-		User user = new User(id,password,name);
+	public void createUser(User user) {
 		group.add(user);
 	}
-	
 	
 }
